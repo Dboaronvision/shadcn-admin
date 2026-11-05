@@ -62,7 +62,7 @@ function CardTitle({
             type="button"
             data-slot='card-title'
             className={cn(
-              'leading-none font-semibold cursor-pointer hover:opacity-80 transition-opacity text-left bg-transparent border-none p-0 m-0',
+              'leading-none font-semibold cursor-pointer hover:opacity-80 transition-opacity duration-200 ease-out motion-reduce:transition-none text-left bg-transparent border-none p-0 m-0',
               className
             )}
             {...props}
