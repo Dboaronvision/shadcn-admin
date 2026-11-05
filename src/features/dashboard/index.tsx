@@ -205,7 +205,7 @@ export function Dashboard() {
                     You made 265 sales this month.
                   </CardDescription>
                 </CardHeader>
-                <CardContent className='rounded-2xl'>
+                <CardContent>
                   <RecentSales />
                 </CardContent>
               </Card>
